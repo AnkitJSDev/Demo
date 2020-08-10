@@ -1,5 +1,95 @@
-button {
-  width: 100px;
-  height: 100px;
-  margin:10px;
+* {
+  box-sizing: border-box;
+}
+
+.full-container {
+	margin: auto;
+    padding: 2%;
+    background: #b4b2b0;
+}
+
+.inner-container {
+    background: #24323d;
+    margin: auto;
+    padding: 5%;
+}
+
+.bottom-container {
+  text-align: center;
+}
+
+.title {
+	text-align:center;
+	color: white;
+}
+
+.col1 {
+  background: #2abf8f;
+}
+
+.col2 {
+  background: #504e4e;
+}
+.col3 {
+	padding-left: 0px !important;
+}
+.col4 {
+	padding-right: 0px !important;
+}
+
+
+/* style the container */
+.container {
+  padding: 20px 0 30px 0;
+} 
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+input[type=text], input[type=password] {
+	background: #24323d;
+    outline: #cc0c0e;
+    color: #8d897a;
+    border: 1px solid #ab8c8a;
+    font-size: 19px;
+	margin: 2% 0;
+}
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #1ab188;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 10px;
+}
+
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 1%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
