@@ -1,20 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="description" content="Harman Interview">
-  <meta name="keywords" content="Create multiple dynamic buttons and attach events on them">
-  <meta name="author" content="Ankit Agrawal">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Harman Interview Demo</title>
-  <link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
 </head>
-<style>
-  
-</style>
 <body>
+<div class="full-container">
+	<div class="content-container">
+		<div class="fund-container">
+			<div class="hero">
+				<span id="currency">$</span><span id="pending-fund">167</span> still needed for this project
+			</div>
+		</div>
+		
+		<div class="main-container">
+			<div class="progress-bar">
+			</div>
+			
+			<div class="text-container">
+				<div class="text text1"><span class="textColor">Only <span class="daysTOExpire">3</span> days left</span> to fund this project
+				</div>
+				<div class="text text2">Join the <span class="totalDonors">42</span> other donors who have already supported this project. Every dollar helps.
+				</div>
+			</div>
+			
+			<div class="contribute-container">
+				<div class="test col input1">
+					<input type="text" value="50" required></input>
+				</div>
+				<div class="col input2">
+					<input type="button" value="Give Now" onclick="#">
+				</div>
+			</div>
+			<div class="text text3">Why give $50?</div>
+		</div>
+		
+		<div class="btn-container">
+			<div class="col input1">
+				<input type="button" id="input3" value="Save for later" onclick="#">
+			</div>
+			<div class="col input2">
+				<input type="button" id="input4" value="Tell your friends" onclick="#">
+			</div>
+		</div>
 
-<script defer src="app.js"></script>
-
+	</div>
+</div>
 </body>
 </html>
